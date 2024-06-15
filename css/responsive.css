@@ -1,0 +1,293 @@
+@media screen and (min-width:430px) {
+  .sale-off-food__img{
+    right: 0;
+  }
+}
+
+
+@media screen and (min-width:576px) {
+    .container{
+        max-width: 540px;
+    }
+    .news__wrapper{
+      gap: 3.2rem;
+    }
+    .news__title{
+      font-size: 3.2rem;
+    }
+    .news__text{
+      font-size: 1.6rem;
+    }
+    
+}
+
+
+@media screen and (min-width:768px) {
+    .container{
+        max-width: 720px;
+    }
+    .section__title{
+      font-size: 4.8rem;
+    }
+    .home-page-order--mobile{
+       display: none;
+    }
+    .home-page-order--desktop{
+       display: flex;
+    }
+    .home-page__wrapper{
+      text-align: left;
+      margin: 0;
+    }
+    .home-page__banner{
+      margin-top: 0;
+      text-align: right;
+    }
+    .delivery{
+      position: absolute;
+      top: -5rem;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+    }
+    .home-page-order{
+      margin:0;
+    }
+    .menu-section__title::before{
+      width:13.7rem;
+      height: .9rem;
+      bottom: 1.6rem;
+    }
+    .foods{
+      grid-template-columns: repeat(2,1fr);
+    }
+    .food__content{
+      text-align: left;
+      align-items: start;
+    }
+    .sale-off__foods{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+    }
+    .sale-off-food__img{
+      right: -23%;
+    }
+    .contact__row{
+      min-height: 80rem;
+      border-top-left-radius: 0;
+      border-bottom-right-radius: 50rem;
+    }
+    .contact__content{
+      text-align: left;
+      gap: 3.2rem;
+      padding-top: 0;
+    }
+    .contact__title{
+      font-size: 3.6rem;
+    }
+    .contact__description{
+      font-size: 1.5rem;
+      max-width: 65rem;
+    }
+    .contact__links{
+      justify-content: start;
+    }
+    .contact__banner{
+      left: auto;
+      right: auto;
+    }
+    .news__image{
+      width: 20rem;
+      height: 15rem;
+    }
+    .news__image--num1{
+      top: 1rem;
+      left: -8.8rem;
+    }
+    .news__image--num2{
+      bottom: -4.5rem;
+      left: 7.8rem;
+    }
+}
+
+
+@media screen and (min-width:992px) {
+    .container{
+        max-width: 960px;
+    }
+   .app-logo{
+     width: 5.4rem;
+     height: 5.6rem;  
+   }
+   .app-logo__img{
+      width: 2.8rem;
+      height: 2.3rem;
+   }
+   .top-menu{ 
+     flex-direction: row;
+     align-items: center;
+     gap: 4.8rem;
+     padding: 1.2rem;
+     padding-left: 0;
+     position: static;
+     width: auto;
+   }
+   .top-menu__item{
+     line-height: 2.4rem;
+     font-weight: 500;
+   }
+   .top-menu-btn{
+     display: none;
+   }
+   .home-page{
+     margin: 0;
+   }
+   .home-page__img{
+    width: 100%;
+    height: 100%;
+   }
+   .delivery{
+    top: 10rem;
+    left: -20rem;
+   }
+   .foods{
+    grid-template-columns: repeat(3,1fr);
+  }
+  .sale-off__foods{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+  }
+  .sale-off-food__img{
+    right: -3%;
+  }
+  .contact{
+    padding-top: 10rem;
+  }
+  .contact__row{
+    min-height: auto;
+  }
+  .contact__wrapper{
+    flex-direction: row;
+    text-align: center;
+  }
+  .contact__img{
+    transform: scale(1.1);
+    top: -.4rem;
+  }
+  .contact__content{
+    max-width: 50rem;
+    margin-left: auto;
+  }
+  .contact__title{
+    font-size: 4rem;
+  }
+  .contact__description{
+    font-size: 1.6rem;
+  }
+  .news__wrapper{
+    gap: 3.2rem;
+  }
+  .news__title{
+    font-size: 4.8rem;
+  }
+  .news__form{
+    /* width: 60%; */
+  }
+  .news__image--num1{
+    top: 0;
+  }
+  .footer__wrapper{
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+  .footer{
+    padding: 3.2rem 0;
+  }
+}
+
+
+@media screen and (min-width:1200px) {
+    .container{
+        max-width: 1140px;
+    }
+    .sale-off-food__img{
+     right: -15%;
+    }
+    .contact__content{
+      max-width: 70rem;
+    }
+    .contact__img{
+      transform: scale(1.15);
+      top: -1.4rem;
+    }
+    .contact__title{
+      font-size: 4.8rem;
+    }
+    .news__image{
+      width: 25rem;
+      height: 20rem;
+    }
+    .news__image--num1{
+      top: 2.5rem;
+      left: -8rem;
+    }
+    .news__image--num2{
+      bottom: -6.3rem;
+      left: 12rem;
+    }
+}
+
+
+@media screen and (min-width:1400px) {
+    .container{
+        max-width: 1370px;
+    }
+    .sale-off-food__img{
+     right: 0;
+    }
+    .contact__row{
+      padding: 8rem 0;
+    }
+    .contact__banner{
+      max-width: unset;
+    }
+    .contact__img{
+      transform: scale(1);
+      top: 1.8rem;
+    }
+    .contact__content{
+      max-width: unset;
+      width: 80rem;
+    }
+    .contact__description{
+      margin: 0;
+    }
+
+}
+
+
+
+@media screen and (max-width:410px) {
+  .contact__row{
+    height: 96rem;
+  }
+
+}
+@media screen and (max-width:350px) {
+  .home-page-order__btns{
+    gap: 0;
+  }
+  .sale-off-food__img {
+    right: -40%;
+  }
+  .news__form{
+    padding: 1.6rem;
+  }
+  .news__input{
+    padding-right: 8rem;
+  }
+  .news__btn{
+    padding: .8rem;
+  }
+
+}
